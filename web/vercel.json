@@ -1,11 +1,11 @@
 {
+  "buildCommand": "pnpm build",
+  "installCommand": "pnpm install",
+  "outputDirectory": "build",
   "build": {
     "env": {
       "NODE_VERSION": "20",
-      "WEB_DEFAULT_API": "https://your-backend-url/api"
+      "WEB_DEFAULT_API": "https://cobalt.tools/api"
     }
-  },
-  "installCommand": "pnpm install",
-  "buildCommand": "pnpm build",
-  "outputDirectory": "build"
+  }
 } 
