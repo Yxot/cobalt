@@ -1,0 +1,10 @@
+{
+  "buildCommand": "pnpm build",
+  "outputDirectory": "build",
+  "installCommand": "pnpm install",
+  "build": {
+    "env": {
+      "NODE_VERSION": "20"
+    }
+  }
+} 
